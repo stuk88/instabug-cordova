@@ -19,7 +19,7 @@ public class MyApplication extends MultiDexApplication
     {
         new Instabug.Builder(
                 this,
-                "APP_TOKEN",
+                "ca6edebe997874ef20285d5e123699ef",
                 InstabugInvocationEvent.SHAKE
         ).build();
         BugReporting.setFloatingButtonEdge(InstabugFloatingButtonEdge.LEFT);
